@@ -1,0 +1,73 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+div.SiteContent, div.bg-white {
+    background-color: l;
+}
+
+div.SiteContent > div.bg-white > h1.SiteContent_H1-0 {
+    color: #333;
+    font-weight: 800;
+    font-size: 56px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+}
+
+div.SiteContent > div.bg-white > h1 > p.SiteContent_P-0 {
+    font-size: 30px;
+}
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content, button.buttonEdit_0 {
+    background-color: #333;
+    border-color: #444;
+}
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > button, a.Button_EditPost-0 {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Other button */
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content, button.buttonEdit_1 {
+    background-color: #eee;
+    border-color: #f4f4f4;
+}
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > button, a.Button_EditPost-1 {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Hr */
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > center > div, hr {
+    width: 95%;
+    text-align: center;
+}
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > center > hr > div.links, a.writtenLinks {
+    color: #333;
+}
+
+/* Socials */
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > center > hr > div.links, a.twitter-social {
+    margin-left: 3em
+}
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > center > hr > div.links, a.github-social {
+    margin-left: em
+}
+
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > center > hr > div.links, a.discord-socil {
+    margin-left: em
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul.OtherLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin: 0;
+    padding: 0;
+}
+
+ul.OtherLinks li a {
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.OtherLinks li a:hover {
+    border-bottom: 2px solid #333;
+}
+
+div.Header > div.logo_and_Header > a {
+    text-decoration: none;
+}
+
+div.Header > div.logo_and_Header > a > button.btn, button.btn-secondary {
+    background-color: #222;
+}
+
+div.Header > div.logo_and_Header > a, button.searchBtn {
+    margin-left: 10px;
+}
