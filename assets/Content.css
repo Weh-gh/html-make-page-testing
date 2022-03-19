@@ -64,3 +64,14 @@ div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > cente
 div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > center > hr > div.links, a.discord-socil {
     margin-left: em;
 }
+
+div.SiteContent > div.bg-white > br > div.notice > span > button {
+    margin: 0 !important;
+}
+
+div.SiteContent > div.bg-white > br > div.notice > span > button, a.dvscodeJoinBtn {
+    color: #333;
+    font-size: 16px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
