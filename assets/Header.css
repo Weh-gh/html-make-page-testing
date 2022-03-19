@@ -44,3 +44,8 @@ div.Header > div.logo_and_Header > a > button > ul > li > a, svg.RedditIcon {
 div.Header > div.logo_and_Header > a > button > ul > li > a, svg.YouTubeIcon {
     color: red;
 }
+
+/* Change the color of the text inside the placeholder in the input */
+::-webkit-input-placeholder {
+    color: #fff;
+}
