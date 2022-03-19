@@ -71,3 +71,20 @@ div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > cente
 div.SiteContent > div.bg-white > h1 > p > div.forward_Content > br > div > center > hr > div.links, a.discord-socil {
     margin-left: em
 }
+
+/* Notice box */
+.notice {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #dfdfdf;
+    border-right-color: #d8d8d8;
+    border-bottom-color: #cbcbcb;
+    border-left-color: #d8d8d8;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #333;
+    background-color: #eee;
+    margin-bottom: 10px;
+    list-style: none;
+}
