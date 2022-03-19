@@ -6,7 +6,7 @@
 ul.OtherLinks {
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 40%;
     margin: 0;
     padding: 0;
 }
@@ -20,8 +20,9 @@ ul.OtherLinks li a {
     padding: 0;
 }
 
-ul.OtherLinks li a:hover {
-    border-bottom: 2px solid #333;
+ul.OtherLinks li > a:hover {
+    padding: 20px 20px;
+    background-color: #eee;
 }
 
 div.Header > div.logo_and_Header > a {
@@ -34,4 +35,12 @@ div.Header > div.logo_and_Header > a > button.btn, button.btn-secondary {
 
 div.Header > div.logo_and_Header > a, button.searchBtn {
     margin-left: 10px;
+}
+
+div.Header > div.logo_and_Header > a > button > ul > li > a, svg.RedditIcon {
+    color: rgb(255,69,0);
+}
+
+div.Header > div.logo_and_Header > a > button > ul > li > a, svg.YouTubeIcon {
+    color: red;
 }
