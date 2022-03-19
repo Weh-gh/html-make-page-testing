@@ -1,4 +1,7 @@
 /* Notification, announcement box. */
+/*
+This is example; As soon as a user is a member on your forum site, and then comes to the home page, a notification appears in front of him "Welcome to Example.org" example
+*/
 .notice {
     position: relative;
     border-width: 1px;
@@ -17,7 +20,7 @@
 }
 
 /* Other Box */
-
+/* I usually put an image inside this otherBox and write a name under it, with this box style I do nothing else */
 div.otherBox {
     text-decoration: none;
     list-style: none;
@@ -25,22 +28,6 @@ div.otherBox {
     border-radius: 6px !important;
     padding: 24px !important;
     display: inline-block !important;
-}
-
-pre {
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    color: rgba(0,0,0,.9);
-    font-family: monospace;
-    overflow: auto;
-    padding: 15px;
-}
-
-pre {
-    display: block;
-    font-family: monospace;
-    white-space: pre;
-    margin: 1em 0px;
 }
 
 div.otherBox {
@@ -61,6 +48,24 @@ div.otherBox {
     margin: 1em 0px;
 }
 
+/* PRE STYLES */
+
+pre {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    color: rgba(0,0,0,.9);
+    font-family: monospace;
+    overflow: auto;
+    padding: 15px;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
 div.Box, div.pre-Box {
     margin: 1em 0 1em 3%;
     -webkit-border-radius: .3em;
@@ -73,9 +78,6 @@ div.Box, div.pre-Box {
 }
 
 div.Box {
-    padding: 10px 10px;
-}
-
-div.Box {
     margin-left: 3.3em;
+    padding: 10px 10px;
 }

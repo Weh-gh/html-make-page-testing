@@ -46,6 +46,12 @@ div.SiteContent > div.bg-white > h1 > p > div.forward_Content > button, a.Button
     text-decoration: none;
 }
 
+/* github img edit */
+div.SiteContent > div.bg-white > h1 > p > div.forward_Content > button, a.Button_EditPost-1, img {
+    margin: 0;
+    height: 25px;
+}
+
 /* Hr */
 div.SiteContent > div.bg-white > h1 > p > div.forward_Content > center > div, hr {
     width: 95%;
