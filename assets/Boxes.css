@@ -1,0 +1,81 @@
+/* Notification, announcement box. */
+.notice {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #dfdfdf;
+    border-right-color: #d8d8d8;
+    border-bottom-color: #cbcbcb;
+    border-left-color: #d8d8d8;
+    padding: 10px 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #333;
+    background-color: #edf6fd;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+/* Other Box */
+
+div.otherBox {
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid #30363d;
+    border-radius: 6px !important;
+    padding: 24px !important;
+    display: inline-block !important;
+}
+
+pre {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    color: rgba(0,0,0,.9);
+    font-family: monospace;
+    overflow: auto;
+    padding: 15px;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+div.otherBox {
+    background-color: #f6f8fa;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #d0d7de;
+    color: rgba(0,0,0,.9);
+    font-family: monospace;
+    overflow: auto;
+    padding: 16px;
+}
+
+div.otherBox {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+div.Box, div.pre-Box {
+    margin: 1em 0 1em 3%;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+    border: 1px solid #d0d7de;
+    background-color: #ffffff;
+    text-align: left;
+    width: 500px;
+}
+
+div.Box {
+    padding: 10px 10px;
+}
+
+div.Box {
+    margin-left: 3.3em;
+}
