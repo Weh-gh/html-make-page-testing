@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -69,8 +73,8 @@ div.SiteContent > div.bg-white > br > div.notice > span > button {
     margin: 0 !important;
 }
 
-div.SiteContent > div.bg-white > br > div.notice > span > button, a.dvscodeJoinBtn {
-    color: #333;
+div.SiteContent > div.bg-white > br > div.notice > span > button, a.dvscodeJoinOffer {
+    color: #fff;
     font-size: 16px;
     padding: 10px 10px;
     text-decoration: none;
