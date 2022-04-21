@@ -85,3 +85,8 @@ div.SiteContent > div.bg-white > br > div.notice > span > button, a.dvscodeJoinO
     padding: 10px 10px;
     text-decoration: none;
 }
+
+p.SiteContent_PDESC {
+    padding: 50px; 
+    text-align: center;
+}
